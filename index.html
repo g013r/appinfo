@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Blog de Educación en Aplicaciones Informáticas</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Mi Blog Educativo</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#articulos">Artículos</a></li>
+        <li><a href="#acerca-de">Acerca de</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="inicio">
+    <h2>Bienvenidos</h2>
+    <p>Bienvenidos a mi blog educativo sobre aplicaciones informáticas. Aquí encontrarás artículos, tutoriales y recursos para aprender sobre las últimas aplicaciones y tecnologías informáticas.</p>
+  </section>
+  <section id="articulos">
+    <h2>Artículos Recientes</h2>
+    <article>
+      <img src="imagen1.jpg" alt="Imagen 1">
+      <h3>Introducción a las Aplicaciones Web</h3>
+      <p>En este artículo, exploraremos los conceptos básicos de las aplicaciones web y cómo funcionan en el mundo de la informática. Aprenderemos sobre tecnologías populares como HTML, CSS y JavaScript.</p>
+      <a href="articulo1.html">Leer más</a>
+    </article>
+    <article>
+      <img src="imagen2.jpg" alt="Imagen 2" class="imagen2">
+      <h3>Desarrollo de Aplicaciones Móviles</h3>
+      <p>En este artículo, discutiremos las tendencias actuales en el desarrollo de aplicaciones móviles y cómo crear aplicaciones móviles modernas utilizando herramientas y frameworks populares.</p>
+      <a href="articulo2.html">Leer más</a>
+    </article>
+  </section>
+  <section id="acerca-de">
+    <h2>Acerca de</h2>
+    <p>Soy un apasionado de la tecnología y la educación. En este blog, comparto mis conocimientos sobre aplicaciones informáticas y su impacto en la sociedad. Espero que encuentres útiles mis artículos y tutoriales.</p>
+  </section>
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Si tienes preguntas, comentarios o sugerencias, por favor contáctame utilizando el siguiente formulario o enviándome un correo electrónico a [email protected]</p>
+    <form action="enviar.php" method="post">
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="mensaje" required></textarea>
+      <input type="submit" value="Enviar">
+    </form>
+  </section>
+  <footer>
+    <p>Derechos Reservados &copy; 2023. Mi Blog Educativo.</p>
